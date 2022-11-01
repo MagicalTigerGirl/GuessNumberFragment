@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GuessNumberFragment </string>
+    <string name="etNombre">Player\'s name: </string>
+    <string name="etNumeroIntentos">Number of attemps: </string>
+    <string name="btnJugar">BEGIN</string>
+    <string name="etNumeroIntroducido">Introduce a number: </string>
+    <string name="errorEditTextVacio">Missing to enter a value </string>
+    <string name="etPosibleNumero">Enter the number you think it is: </string>
+    <string name="btnProbarNumero">TRY</string>
+    <string name="btnVolverAIntentar">TRY AGAIN</string>
+    <string name="numeroMenor">The number to guess is less than the one entered. Number of attemps: </string>
+    <string name="numeroMayor">The number to guess is greater than the one entered. Number of attemps: </string>
+    <string name="hasGanado">YOU HAVE WON!!</string>
+    <string name="hasPerdido">YOU HAVE LOST :(</string>
+    <string name="intentosAgotados">You have no more attempts</string>
+    <string name="elNumeroEra">, the number was </string>
+    <string name="hasConsumido"> and you have consumed </string>
+    <string name="intentos"> attempts. </string>
+</resources>

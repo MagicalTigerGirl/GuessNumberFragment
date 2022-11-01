@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/configFragment">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.guessnumberfragment.iu.MainActivity"
+        android:label="MainActivity" />
+    <fragment
+        android:id="@+id/configFragment"
+        android:name="com.example.guessnumberfragment.iu.ConfigFragment"
+        android:label="ConfigFragment" >
+        <action
+            android:id="@+id/action_configFragment_to_playFragment"
+            app:destination="@id/playFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playFragment"
+        android:name="com.example.guessnumberfragment.iu.PlayFragment"
+        android:label="PlayFragment" >
+        <action
+            android:id="@+id/action_playFragment_to_endPlayFragment2"
+            app:destination="@id/endPlayFragment" />
+        <argument
+            android:name="information"
+            app:argType="com.example.guessnumberfragment.data.Information" />
+    </fragment>
+    <fragment
+        android:id="@+id/endPlayFragment"
+        android:name="com.example.guessnumberfragment.iu.EndPlayFragment"
+        android:label="EndPlayFragment" >
+        <action
+            android:id="@+id/action_endPlayFragment_to_configFragment"
+            app:destination="@id/configFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="false" />
+        <argument
+            android:name="information"
+            app:argType="com.example.guessnumberfragment.data.Information" />
+    </fragment>
+</navigation>
