@@ -17,6 +17,8 @@ import com.example.guessnumberfragment.databinding.FragmentEndPlayBinding;
 
 import java.util.Objects;
 
+/**
+ * Es la Activity final, donde muestra todos los resultados y si el jugador ha adivinado el número o no*/
 public class EndPlayFragment extends Fragment {
 
     private FragmentEndPlayBinding binding;

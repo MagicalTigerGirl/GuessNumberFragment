@@ -20,6 +20,10 @@ import com.example.guessnumberfragment.R;
 import com.example.guessnumberfragment.data.Information;
 import com.example.guessnumberfragment.databinding.FragmentConfigBinding;
 
+/**
+ * Activity en donde introducimos los datos del jugador y los intentos que tiene para adivinar el número.
+ * Ambos valores deben estar introducidos antes de clicar en el botón para comenzar a jugar, si falta algún valor salta un mensaje y no funciona el botón
+ * */
 public class ConfigFragment extends Fragment {
 
     private final String TAG = "ConfigFragment";

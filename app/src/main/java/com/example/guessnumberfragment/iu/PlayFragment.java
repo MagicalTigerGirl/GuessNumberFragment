@@ -20,6 +20,11 @@ import com.example.guessnumberfragment.databinding.FragmentPlayBinding;
 
 import java.util.Random;
 
+/**
+ * La Activity en donde se juega, el jugador debe introducir un número comprendido entre 0 y 100 y para comprobar si es el número correcto debe darle al botón.
+ * Para volver a intentarlo debe darle al botón "voler a intentar", ya que el botón "probar" queda deshabilitada hasta que pulsa este botón.
+ * Cuando acierta el número o se queda sin intentos salta a la Activity final
+ * */
 public class PlayFragment extends Fragment {
 
     private FragmentPlayBinding binding;
